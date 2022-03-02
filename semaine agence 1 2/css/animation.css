@@ -1,0 +1,20 @@
+@keyframes load {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+@keyframes dl {
+  0% { 
+    width: 45%; 
+  }
+  100% { 
+    width: 50%; 
+  }
+}
+
+#imgAsC3:hover {
+	animation: dl 1s;
+}
+
+#imgGpC3:hover {
+  animation: dl 1s;
+}

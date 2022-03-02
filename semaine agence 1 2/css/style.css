@@ -1,0 +1,362 @@
+html {
+	height: 100vh;
+	width: 100%;
+	scroll-behavior: smooth;
+}
+
+header {
+	background-color: #AF001D;
+	width: 100%;
+	height: 80%;
+	opacity: 87%;
+	position: absolute;
+	font-family: Philosopher;
+}
+
+.headerLink {
+	text-decoration: none;
+	color: white;
+}
+
+.navbar {
+	display: flex;
+	gap: 50px;
+	color: white;
+	font-size: 140%;
+	margin-top: 1rem;	
+	justify-content: center;
+	align-items: center;
+
+}
+
+.event {
+	margin-top: 10rem;
+	color: white;
+	display: flex;
+	float: left;
+	text-align: center;
+	margin-left: 5%;
+	max-width: 60%;
+	flex-direction: column;
+	justify-content: space-between;
+	height: 15rem;
+	font-size: 170%;
+}
+
+.event-h1 {
+
+}
+
+.event-h2 {
+
+}
+
+.evenement {
+	width: 30rem;
+	height: 500px;
+	color: white;
+	font-size: 500%;
+	float: right;
+	flex-direction: column;
+	margin-right: 5rem;
+	margin-top: 8rem;
+	max-height: 30rem;
+	font-style: bold;
+		animation-name: load;
+	animation-duration: 1s;
+}
+
+.evenement-2 {
+	margin-top: -2.5rem;
+	opacity: 95%;
+}
+
+.evenement-3 {
+	margin-top: -2.5rem;
+	opacity: 90%;
+}
+
+.evenement-4 {
+	margin-top: -2.5rem;
+	opacity: 85%;
+}
+
+.evenement-5 {
+	margin-top: -2.5rem;
+	opacity: 80%;
+}
+
+.evenement-6 {
+	margin-top: -2.5rem;
+	opacity: 75%;
+}
+
+.evenement-7 {
+	margin-top: -2.5rem;
+	opacity: 70%;
+}
+
+.evenement-8 {
+	margin-top: -2.5rem;
+	opacity: 65%;
+}
+
+.evenement-9 {
+	margin-top: -2.5rem;
+	opacity: 60%;
+}
+
+.logo {
+
+}
+
+.background-img {
+	margin-top: 28rem;
+	float: left;
+	display: inline-flex;
+	margin-left: -30rem;
+}
+
+.block1 {
+	display: flex;
+	text-align: left;
+	float: left;
+	margin-top: 50rem;
+	font-size: 130%;
+	font-family: Philosopher;
+	font-style: bold;
+	margin-left: 5rem;
+}
+
+.p-t1 {
+
+}
+
+.france-img {
+	display: block;
+	margin-top: 0.8rem;
+	margin-left: -25rem;
+}
+
+.iphone-img {
+	transform: rotate(-15deg);
+	margin-left: 10rem;
+}
+
+.block2 {
+	width: 100%;
+	height: 50rem;
+	background-color: #AF001D;
+	opacity: 87%;
+	margin-top: 75rem;
+	position: absolute;
+}
+
+.block2-2 {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+	height: 40rem;
+	margin-top: 5rem;
+}
+
+.block2-h2 {
+	color: white;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	display: flex;
+	margin-top: 2rem;
+	font-size: 170%;
+	font-family: Philosopher;
+}
+
+.galerie-lafayette {
+	width: 50rem;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bizzbee {
+	width: 50rem;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.gosport {
+	width: 50rem;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.bershka {
+	width: 50rem;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.the-kooples {
+	width: 50rem;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.zara {
+	width: 50rem;
+	height: 5rem;
+	background-color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+#contact3{
+    display: flex;
+    flex-direction: column;
+    height: 1030px;
+    width: 100vw;
+    background-color:#ECECEC;
+    align-items: center;
+}
+
+#premierC3{
+    font:30px bold; 
+    height: 190px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#deuxiemeC3{
+    display: flex;
+    justify-content: space-between;
+    height: 400px;
+    width: calc(100vw - 14vw);
+    margin-bottom: 50px;
+}
+#logoC3{
+    height: 100%;
+}
+#deuxLignesC3{
+    width: 55vw;
+}
+#ligne1C3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    text-align: center;
+}
+#ligne2C3{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50%;
+}
+#textL1C3{
+    font-family: "Philosopher";
+    font:60px bold;
+}
+
+#imgAsC3{
+    width: 45%;
+}
+#imgGpC3{
+    width: 45%;
+}
+#troixiemeC3{
+    text-align: center;
+    font:30px bold;
+    line-height: 1.6;
+
+}
+#boutonC3{
+    color:black;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1000px;
+    background-color: #AEAEAE;
+    width: 440px;
+    height: 86px;
+    font: 45px bold;
+    text-decoration: none;
+}
+
+#boutonC3:hover{
+    background-color: #AF001D;
+    color:white;
+}
+
+footer{
+    font:22px bold;
+    height: 430px;
+    background-color: #AEAEAE;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+#footGPH{
+    width: 86vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+.splitF{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.iconF{
+    height: 32px;
+}
+#footPartenaires{
+    width: 86vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.partenaire{
+    height: 40px;
+}
+
+#footLine{
+    height: 2px;
+    background-color: black;
+    width: 86vw;
+}
+.tailleF{
+    height: 70px;
+}
+
+.englobe {
+	margin-top: 125rem;
+	position: absolute;
+}
+
+#pressme {
+	position: absolute;
+}
+
+.video {
+	margin-left: 5rem;
+}
